@@ -23,3 +23,10 @@ class LinkedList:
             vals.append(str(curr.value))
             curr = curr.next
         print(" -> ".join(vals))
+
+if __name__ == '__main__':
+    list = LinkedList()
+    list.append(10)
+    list.append(15)
+    list.append(20)
+    list.display()
